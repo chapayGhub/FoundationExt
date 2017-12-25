@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FoundationExt
 //
-//  Created by andrewSvsg on 12/24/2017.
-//  Copyright (c) 2017 andrewSvsg. All rights reserved.
+//  Created by chapayGhub on 12/24/2017.
+//  Copyright (c) 2017 chapayGhub. All rights reserved.
 //
 
 import UIKit
