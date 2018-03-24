@@ -35,6 +35,14 @@ extension String {
 
 extension String {
   public var trimmed: String { return self.trimmingCharacters(in: .spaceCharacterSet) }
+    
+  public func capitalizingFirstLetter() -> String {
+    return prefix(1).uppercased() + dropFirst()
+  }
+    
+  public mutating func capitalizeFirstLetter() {
+    self = self.capitalizingFirstLetter()
+  }
 }
 
 
